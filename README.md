@@ -5,7 +5,7 @@
 Aplicacion para inyectar y listar dlls a otros procesos
 
 ###### COMANDOS
-
+<pre>
 -help
         Informacion de los comandos
 -list -all
@@ -18,13 +18,13 @@ Aplicacion para inyectar y listar dlls a otros procesos
         Inyecta una libreria en el propio inyector (usado para test)
 -load -exe [dll] [command line]
         Inyecta una libreria en un proceso a partir de su lina de comandos
-
+</pre>
 ###### DESGLOSE
-
+<pre>
 [pid]: Identificador de proceso
 [dll]: Ruta a la dll
 [command line]: Linea de comandos del ejecutable
-
+</pre>
 ###### DESCARGAR
 
 [Descargar programa](https://github.com/DML95/Inyector-dll/raw/master/inyector/bin/inyector.exe)
