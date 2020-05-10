@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1589113437 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\internalerror.cpp
+	"internalError.h"
+	<windows.h>
+	<iostream>
+
+1589113700 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\internalerror.h
+	<string>
+
+1589110543 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\main.cpp
+	<iostream>
+	<string>
+	"core.h"
+	"main.h"
+	"internalError.h"
+
+1589027760 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\core.h
+	<windows.h>
+	<memory>
+	"process.h"
+
+1589055993 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\process.h
+	<windows.h>
+	<vector>
+	<string>
+
+1587892713 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\main.h
+	<memory>
+	<vector>
+	<string>
+
+1589056002 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\process.cpp
+	"process.h"
+	"internalError.h"
+	"vector.h"
+	<psapi.h>
+	<cstring>
+
+1588590626 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\vector.h
+	<memory>
+	"process.h"
+
+1589022678 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\thread.cpp
+	"thread.h"
+	"internalError.h"
+
+1589022685 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\thread.h
+	<windows.h>
+	<memory>
+	"process.h"
+
+1588952901 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\vector.cpp
+	"vector.h"
+	"internalError.h"
+
+1589113661 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\core.cpp
+	<iostream>
+	<regex>
+	"core.h"
+	"internalError.h"
+	"vector.h"
+	"thread.h"
+	"testLibrary.h"
+	<psapi.h>
+
+1589021629 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\testlibrary.cpp
+	"testLibrary.h"
+	"internalError.h"
+
+1589021599 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\inyector\src\testlibrary.h
+	<windows.h>
+	<string>
+
