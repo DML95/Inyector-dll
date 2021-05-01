@@ -4,6 +4,10 @@
 
 Aplicacion para inyectar y listar dlls a otros procesos
 
+###### AVISO
+
+**La mayoria de aplicaciones modernas no se dejan inyectar con esta tecnica**
+
 ###### COMANDOS
 <pre>
 -help
@@ -33,6 +37,13 @@ Aplicacion para inyectar y listar dlls a otros procesos
 
 ###### ENTORNO DE DESARROLLO
 
-* Copilador -> GCC (mingw-w64)
-* IDE -> Code::Blocks
+* Copilador -> mingw-w64
+* IDE -> Eclipse CDT
 * Sistema Opertivo -> Windows
+
+###### Instalacion y ejecuación
+
+1. Abrir la consola de comandos
+2. Situarse en la carpeta **(dll-test o inyector)** del proyecto
+3. Ejecutar el comando **make**
+4. Ejecutar el archivo **inyector/bin/inyector**

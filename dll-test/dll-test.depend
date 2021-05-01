@@ -1,8 +1,0 @@
-# depslib dependency file v1.0
-1589022230 source:c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\dll-test\src\main.cpp
-	<sstream>
-	"main.h"
-
-1589022249 c:\users\david_pc\documents\programas\c++\programas\inyector de librerias\dll-test\src\main.h
-	<windows.h>
-

@@ -1,3 +1,4 @@
+#define BUILD_DLL
 #include <sstream>
 
 #include "main.h"
@@ -23,12 +24,14 @@ static std::string fdwReasonToString(DWORD fdwReason){
     return text;
 }
 
-extern "C" DLL_EXPORT BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved){
-    std::stringstream stream;
-    stream<<"PID: "<<GetCurrentProcessId()<<
-            "\nDllMain\n\tHINSTANCE: "<<hinstDLL<<
-            "\n\tfdwReason: "<<fdwReasonToString(fdwReason)<<
-            "\n\tlpvReserved: "<<(bool)lpvReserved;
-    MessageBoxA(0,stream.str().data(),"Hola Mundo", MB_OK|MB_ICONINFORMATION);
-    return true;
+extern "C" {
+	DLL_EXPORT BOOL APIENTRY DllMain(HINSTANCE hinstDLL, DWORD fdwReason, LPVOID lpvReserved){
+		std::stringstream stream;
+		stream<<"PID: "<<GetCurrentProcessId()<<
+				"\nDllMain\n\tHINSTANCE: "<<hinstDLL<<
+				"\n\tfdwReason: "<<fdwReasonToString(fdwReason)<<
+				"\n\tlpvReserved: "<<(bool)lpvReserved;
+		MessageBoxA(0,stream.str().data(),"Hola Mundo", MB_OK|MB_ICONINFORMATION);
+		return true;
+	}
 }
